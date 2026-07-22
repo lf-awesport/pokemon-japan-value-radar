@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "version": 1,
+    "provider": "JustTCG v2",
+    "marketRegion": "US",
+    "language": "Japanese",
+    "currency": "USD",
+    "generatedAt": "2026-07-22T23:15:44Z",
+    "successfulRecords": 10,
+    "totalRecords": 10,
+    "errors": [],
+    "disclaimer": "Prices describe Japanese-language raw cards in the US market, not Japanese store prices."
+  },
+  "records": [
+    {"baseCardId":"magikarp-ar-080-073","providerCardId":"8de037c1-5f24-583e-807e-48326914a990","variantId":"58173b79-db21-5fc5-af2a-688de4ab15ab","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":173.08,"providerUpdatedAt":"2026-07-22T18:10:02+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"charizard-ex-sar-201-165","providerCardId":"3335e718-fbba-5333-a552-94f0627896b6","variantId":"702564a7-5bb3-5356-a0f3-62ba90674d7a","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":392.32,"providerUpdatedAt":"2026-07-22T18:10:07+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"eevee-munch-287-sm-p","providerCardId":"2d4cb0cb-eedd-56c3-8e0b-854ede47316d","variantId":"78e36ede-0380-595f-bf12-ad69cc980f0e","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":800,"providerUpdatedAt":"2026-02-11T21:54:30+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"lugia-v-sa-110-098","providerCardId":"f6f310fe-b8c3-51e9-85a2-9aae6a0c1cad","variantId":"7176e1d8-4eb0-5f7a-9f08-be7583bbda22","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":474.99,"providerUpdatedAt":"2026-07-22T18:12:39+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"giratina-vstar-ur-261-172","providerCardId":"8966617b-b525-532e-bc0f-43c16676859d","variantId":"045e4330-1dce-5c8a-9b9f-41af2e8fb0ac","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":276.61,"providerUpdatedAt":"2026-07-22T18:13:39+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"mew-ex-sar-205-165","providerCardId":"5dcc6b9b-aa24-5d79-896c-fe8286eb0058","variantId":"dabbd9b9-ea4e-593d-abb6-30235274ee5c","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":218.42,"providerUpdatedAt":"2026-07-22T18:10:07+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"pikachu-ar-173-165","providerCardId":"395c187f-3cc2-5bf1-b790-05b0c217e824","variantId":"fc3c992b-0447-562a-bf4a-f40550e66fe7","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":34.28,"providerUpdatedAt":"2026-07-22T18:10:07+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"psyduck-munch-286-sm-p","providerCardId":"4b416679-129d-5b6c-9404-ba1afbd8be30","variantId":"c81798ce-c083-5a20-872f-3e950e0c41aa","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":699,"providerUpdatedAt":"2026-02-24T23:41:50+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"gengar-vmax-sa-020-019","providerCardId":"e5837df9-c9d4-5ddb-ad31-07eb6b7086b2","variantId":"17d31156-0c72-5144-aa34-53a02634fc91","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":549.99,"providerUpdatedAt":"2026-01-01T01:42:31+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"},
+    {"baseCardId":"giratina-v-sa-111-100","providerCardId":"b54c9d3a-94e1-5763-a5af-dda0417780b9","variantId":"b32be52d-4da7-530d-bee5-5d878c249139","condition":"Near Mint","printing":"Holofoil","language":"Japanese","marketRegion":"US","currency":"USD","priceUsd":675,"providerUpdatedAt":"2026-07-20T05:50:03+00:00","fetchedAt":"2026-07-22T23:15:44Z","source":"JustTCG v2"}
+  ]
+}
