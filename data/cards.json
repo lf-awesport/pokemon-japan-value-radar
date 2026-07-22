@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "version": 2,
+    "seedDate": "2026-07-22",
+    "priceProvider": "JustTCG raw automatico + benchmark slab curati",
+    "notes": "Raw JP in JPY and slab benchmarks are curated. JustTCG supplies an automatic US-market raw benchmark for the Japanese-language card."
+  },
+  "cards": [
+    {"id":"magikarp-080-psa9","baseCardId":"magikarp-ar-080-073","name":"Magikarp AR","set":"Triplet Beat","number":"080/073","grade":"PSA 9","targetBuyJpy":22000,"rawJpy":27800,"liquidityPerMonth":12,"desirability":5,"confidence":4,"category":"Modern AR"},
+    {"id":"charizard-201-psa9","baseCardId":"charizard-ex-sar-201-165","name":"Charizard ex SAR","set":"Pokémon Card 151","number":"201/165","grade":"PSA 9","targetBuyJpy":55000,"rawJpy":77800,"liquidityPerMonth":8,"desirability":5,"confidence":4,"category":"Modern SAR"},
+    {"id":"eevee-munch-287-psa9","baseCardId":"eevee-munch-287-sm-p","name":"Eevee Munch","set":"SM Promo","number":"287/SM-P","grade":"PSA 9","targetBuyJpy":210000,"rawJpy":328000,"liquidityPerMonth":30,"desirability":5,"confidence":4,"category":"Japanese Promo"},
+    {"id":"lugia-v-110-psa9","baseCardId":"lugia-v-sa-110-098","name":"Lugia V SA","set":"Paradigm Trigger","number":"110/098","grade":"PSA 9","targetBuyJpy":80000,"rawJpy":178000,"liquidityPerMonth":4,"desirability":5,"confidence":3,"category":"Sword & Shield Alt Art"},
+    {"id":"giratina-vstar-261-psa9","baseCardId":"giratina-vstar-ur-261-172","name":"Giratina VSTAR UR","set":"VSTAR Universe","number":"261/172","grade":"PSA 9","targetBuyJpy":25000,"rawJpy":35800,"liquidityPerMonth":4,"desirability":4,"confidence":4,"category":"Gold VSTAR"},
+    {"id":"mew-205-psa9","baseCardId":"mew-ex-sar-205-165","name":"Mew ex SAR","set":"Pokémon Card 151","number":"205/165","grade":"PSA 9","targetBuyJpy":35000,"rawJpy":52800,"liquidityPerMonth":4,"desirability":5,"confidence":3,"category":"Modern SAR"},
+    {"id":"pikachu-173-psa9","baseCardId":"pikachu-ar-173-165","name":"Pikachu AR","set":"Pokémon Card 151","number":"173/165","grade":"PSA 9","targetBuyJpy":5000,"rawJpy":7180,"liquidityPerMonth":8,"desirability":5,"confidence":3,"category":"Modern AR"},
+    {"id":"psyduck-munch-286-psa9","baseCardId":"psyduck-munch-286-sm-p","name":"Psyduck Munch","set":"SM Promo","number":"286/SM-P","grade":"PSA 9","targetBuyJpy":300000,"rawJpy":328000,"liquidityPerMonth":30,"desirability":5,"confidence":4,"category":"Japanese Promo"},
+    {"id":"gengar-vmax-020-psa9","baseCardId":"gengar-vmax-sa-020-019","name":"Gengar VMAX SA","set":"High Class Deck Gengar VMAX","number":"020/019","grade":"PSA 9","targetBuyJpy":120000,"rawJpy":298000,"liquidityPerMonth":1,"desirability":5,"confidence":3,"category":"Sword & Shield Alt Art"},
+    {"id":"giratina-v-111-psa9","baseCardId":"giratina-v-sa-111-100","name":"Giratina V SA","set":"Lost Abyss","number":"111/100","grade":"PSA 9","targetBuyJpy":170000,"rawJpy":268000,"liquidityPerMonth":1,"desirability":5,"confidence":3,"category":"Sword & Shield Alt Art"},
+    {"id":"magikarp-080-psa8","baseCardId":"magikarp-ar-080-073","name":"Magikarp AR","set":"Triplet Beat","number":"080/073","grade":"PSA 8","targetBuyJpy":11000,"rawJpy":27800,"liquidityPerMonth":2,"desirability":5,"confidence":3,"category":"Speculative grade"},
+    {"id":"giratina-vstar-261-psa8","baseCardId":"giratina-vstar-ur-261-172","name":"Giratina VSTAR UR","set":"VSTAR Universe","number":"261/172","grade":"PSA 8","targetBuyJpy":13000,"rawJpy":35800,"liquidityPerMonth":0.25,"desirability":4,"confidence":2,"category":"Speculative grade"},
+    {"id":"mew-205-psa8","baseCardId":"mew-ex-sar-205-165","name":"Mew ex SAR","set":"Pokémon Card 151","number":"205/165","grade":"PSA 8","targetBuyJpy":6500,"rawJpy":52800,"liquidityPerMonth":1,"desirability":5,"confidence":2,"category":"Speculative grade"},
+    {"id":"charizard-201-psa7","baseCardId":"charizard-ex-sar-201-165","name":"Charizard ex SAR","set":"Pokémon Card 151","number":"201/165","grade":"PSA 7","targetBuyJpy":16000,"rawJpy":77800,"liquidityPerMonth":0.17,"desirability":5,"confidence":2,"category":"Speculative grade"},
+    {"id":"rayquaza-vmax-083-psa9","baseCardId":"rayquaza-vmax-083","name":"Rayquaza VMAX SA","set":"Blue Sky Stream","number":"083/067","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"umbreon-vmax-095-psa9","baseCardId":"umbreon-vmax-095","name":"Umbreon VMAX SA","set":"Eevee Heroes","number":"095/069","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"espeon-vmax-189-psa9","baseCardId":"espeon-vmax-189","name":"Espeon VMAX Promo","set":"Sword & Shield Promo","number":"189/S-P","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"leafeon-vmax-089-psa9","baseCardId":"leafeon-vmax-089","name":"Leafeon VMAX SA","set":"Eevee Heroes","number":"089/069","grade":"PSA 9","desirability":4,"confidence":1,"category":"Watchlist"},
+    {"id":"sylveon-vmax-093-psa9","baseCardId":"sylveon-vmax-093","name":"Sylveon VMAX SA","set":"Eevee Heroes","number":"093/069","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"glaceon-vmax-091-psa9","baseCardId":"glaceon-vmax-091","name":"Glaceon VMAX SA","set":"Eevee Heroes","number":"091/069","grade":"PSA 9","desirability":4,"confidence":1,"category":"Watchlist"},
+    {"id":"pikachu-munch-288-psa9","baseCardId":"pikachu-munch-288","name":"Pikachu Munch","set":"SM Promo","number":"288/SM-P","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"mimikyu-munch-289-psa9","baseCardId":"mimikyu-munch-289","name":"Mimikyu Munch","set":"SM Promo","number":"289/SM-P","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"rowlet-munch-290-psa9","baseCardId":"rowlet-munch-290","name":"Rowlet Munch","set":"SM Promo","number":"290/SM-P","grade":"PSA 9","desirability":4,"confidence":1,"category":"Watchlist"},
+    {"id":"mario-pikachu-293-psa9","baseCardId":"mario-pikachu-293","name":"Mario Pikachu","set":"XY Promo","number":"293/XY-P","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"luigi-pikachu-296-psa9","baseCardId":"luigi-pikachu-296","name":"Luigi Pikachu","set":"XY Promo","number":"296/XY-P","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"latias-latios-105-psa9","baseCardId":"latias-latios-105","name":"Latias & Latios GX SA","set":"Tag Bolt","number":"105/095","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"erika-190-psa9","baseCardId":"erika-190","name":"Erika's Hospitality","set":"Tag All Stars","number":"190/173","grade":"PSA 9","desirability":4,"confidence":1,"category":"Watchlist"},
+    {"id":"misty-104-psa9","baseCardId":"misty-104","name":"Misty's Favor","set":"Miracle Twins","number":"104/094","grade":"PSA 9","desirability":4,"confidence":1,"category":"Watchlist"},
+    {"id":"poncho-charizard-x-207-psa9","baseCardId":"poncho-charizard-x-207","name":"Poncho-wearing Pikachu Charizard X","set":"XY Promo","number":"207/XY-P","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"},
+    {"id":"poncho-rayquaza-230-psa9","baseCardId":"poncho-rayquaza-230","name":"Poncho-wearing Pikachu Rayquaza","set":"XY Promo","number":"230/XY-P","grade":"PSA 9","desirability":5,"confidence":1,"category":"Watchlist"}
+  ]
+}
