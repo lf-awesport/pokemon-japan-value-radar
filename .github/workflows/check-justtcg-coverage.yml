@@ -2,9 +2,8 @@ name: Check JustTCG coverage
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - agent/justtcg-integration
+  pull_request:
+    branches: [main]
     paths:
       - data/coverage-cards.json
       - scripts/check_justtcg_coverage.py
@@ -48,15 +47,3 @@ jobs:
             data/coverage-report.json
             data/coverage-report.md
           if-no-files-found: error
-
-      - name: Commit report to integration branch
-        run: |
-          if git diff --quiet -- data/coverage-report.json data/coverage-report.md; then
-            echo "Coverage report unchanged"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/coverage-report.json data/coverage-report.md
-          git commit -m "chore: update JustTCG coverage report"
-          git push
