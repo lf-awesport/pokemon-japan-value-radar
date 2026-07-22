@@ -2,19 +2,9 @@ name: Check JustTCG coverage
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [main]
-    paths:
-      - data/coverage-cards.json
-      - scripts/check_justtcg_coverage.py
-      - .github/workflows/check-justtcg-coverage.yml
 
 permissions:
-  contents: write
-
-concurrency:
-  group: justtcg-coverage
-  cancel-in-progress: true
+  contents: read
 
 jobs:
   coverage:
@@ -25,20 +15,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: agent/justtcg-integration
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Check secret
         run: test -n "$JUSTTCG_API_KEY"
-
       - name: Run coverage probe
         run: python scripts/check_justtcg_coverage.py
-
       - name: Upload report artifact
         uses: actions/upload-artifact@v4
         with:
