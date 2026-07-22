@@ -2,6 +2,13 @@ name: Check JustTCG coverage
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - agent/justtcg-integration
+    paths:
+      - data/coverage-cards.json
+      - scripts/check_justtcg_coverage.py
+      - .github/workflows/check-justtcg-coverage.yml
 
 permissions:
   contents: write
