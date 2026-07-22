@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "version": 1,
+    "provider": "Curated benchmarks",
+    "updatedAt": "2026-07-22",
+    "currency": "EUR",
+    "records": 14
+  },
+  "benchmarks": [
+    {"cardId":"magikarp-080-psa9","valueEur":175,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-triplet-beat/magikarp-80","observedAt":"2026-07-22","confidence":"B"},
+    {"cardId":"charizard-201-psa9","valueEur":359,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-scarlet-%26-violet-151/charizard-ex-201","observedAt":"2026-07-22","confidence":"B"},
+    {"cardId":"eevee-munch-287-psa9","valueEur":1468,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-promo/eevee-munch-a-retrospective-287sm-p","observedAt":"2026-07-22","confidence":"B"},
+    {"cardId":"lugia-v-110-psa9","valueEur":563,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-paradigm-trigger/lugia-v-110","observedAt":"2026-07-22","confidence":"C"},
+    {"cardId":"giratina-vstar-261-psa9","valueEur":193,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-vstar-universe/giratina-vstar-261","observedAt":"2026-07-22","confidence":"B"},
+    {"cardId":"mew-205-psa9","valueEur":241,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-scarlet-%26-violet-151/mew-ex-205","observedAt":"2026-07-22","confidence":"C"},
+    {"cardId":"pikachu-173-psa9","valueEur":44,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-scarlet-%26-violet-151/pikachu-173","observedAt":"2026-07-22","confidence":"C"},
+    {"cardId":"psyduck-munch-286-psa9","valueEur":1948,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-promo/psyduck-286sm-p","observedAt":"2026-07-22","confidence":"B"},
+    {"cardId":"gengar-vmax-020-psa9","valueEur":914,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-gengar-vmax-high-class/gengar-vmax-20","observedAt":"2026-07-22","confidence":"C"},
+    {"cardId":"giratina-v-111-psa9","valueEur":1279,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-lost-abyss/giratina-v-111","observedAt":"2026-07-22","confidence":"C"},
+    {"cardId":"magikarp-080-psa8","valueEur":93,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-triplet-beat/magikarp-80","observedAt":"2026-07-22","confidence":"C"},
+    {"cardId":"giratina-vstar-261-psa8","valueEur":105,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-vstar-universe/giratina-vstar-261","observedAt":"2026-07-22","confidence":"D"},
+    {"cardId":"mew-205-psa8","valueEur":55,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-scarlet-%26-violet-151/mew-ex-205","observedAt":"2026-07-22","confidence":"D"},
+    {"cardId":"charizard-201-psa7","valueEur":145,"currency":"EUR","source":"Curated benchmark","sourceUrl":"https://www.pricecharting.com/game/pokemon-japanese-scarlet-%26-violet-151/charizard-ex-201","observedAt":"2026-07-22","confidence":"D"}
+  ]
+}

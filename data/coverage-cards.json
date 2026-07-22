@@ -1,0 +1,12 @@
+[
+  {"id":"magikarp-ar-080-073","name":"Magikarp","set":"Triplet Beat","number":"080/073","aliases":["Magikarp AR"]},
+  {"id":"charizard-ex-sar-201-165","name":"Charizard ex","set":"Pokemon Card 151","number":"201/165","aliases":["Charizard ex SAR"]},
+  {"id":"eevee-munch-287-sm-p","name":"Eevee","set":"SM-P Promotional cards","number":"287/SM-P","aliases":["Eevee Munch"]},
+  {"id":"lugia-v-sa-110-098","name":"Lugia V","set":"Paradigm Trigger","number":"110/098","aliases":["Lugia V SA"]},
+  {"id":"giratina-vstar-ur-261-172","name":"Giratina VSTAR","set":"VSTAR Universe","number":"261/172","aliases":["Giratina VSTAR UR"]},
+  {"id":"mew-ex-sar-205-165","name":"Mew ex","set":"Pokemon Card 151","number":"205/165","aliases":["Mew ex SAR"]},
+  {"id":"pikachu-ar-173-165","name":"Pikachu","set":"Pokemon Card 151","number":"173/165","aliases":["Pikachu AR"]},
+  {"id":"psyduck-munch-286-sm-p","name":"Psyduck","set":"SM-P Promotional cards","number":"286/SM-P","aliases":["Psyduck Munch"]},
+  {"id":"gengar-vmax-sa-020-019","name":"Gengar VMAX","set":"High Class Deck Gengar VMAX","number":"020/019","aliases":["Gengar VMAX SA"]},
+  {"id":"giratina-v-sa-111-100","name":"Giratina V","set":"Lost Abyss","number":"111/100","aliases":["Giratina V SA"]}
+]

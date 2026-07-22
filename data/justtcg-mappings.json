@@ -1,0 +1,15 @@
+{
+  "meta": {"version":1,"provider":"JustTCG v2","records":10},
+  "mappings": [
+    {"baseCardId":"magikarp-ar-080-073","providerCardId":"8de037c1-5f24-583e-807e-48326914a990","name":"Magikarp","set":"Triplet Beat","number":"080/073","aliases":["Magikarp AR"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"charizard-ex-sar-201-165","providerCardId":"3335e718-fbba-5333-a552-94f0627896b6","name":"Charizard ex","set":"Pokemon Card 151","number":"201/165","aliases":["Charizard ex SAR"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"eevee-munch-287-sm-p","providerCardId":"2d4cb0cb-eedd-56c3-8e0b-854ede47316d","name":"Eevee","set":"SM-P Promotional cards","number":"287/SM-P","aliases":["Eevee Munch"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"lugia-v-sa-110-098","providerCardId":"f6f310fe-b8c3-51e9-85a2-9aae6a0c1cad","name":"Lugia V","set":"Paradigm Trigger","number":"110/098","aliases":["Lugia V SA"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"giratina-vstar-ur-261-172","providerCardId":"8966617b-b525-532e-bc0f-43c16676859d","name":"Giratina VSTAR","set":"VSTAR Universe","number":"261/172","aliases":["Giratina VSTAR UR"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"mew-ex-sar-205-165","providerCardId":"5dcc6b9b-aa24-5d79-896c-fe8286eb0058","name":"Mew ex","set":"Pokemon Card 151","number":"205/165","aliases":["Mew ex SAR"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"pikachu-ar-173-165","providerCardId":"395c187f-3cc2-5bf1-b790-05b0c217e824","name":"Pikachu","set":"Pokemon Card 151","number":"173/165","aliases":["Pikachu AR"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"psyduck-munch-286-sm-p","providerCardId":"4b416679-129d-5b6c-9404-ba1afbd8be30","name":"Psyduck","set":"SM-P Promotional cards","number":"286/SM-P","aliases":["Psyduck Munch"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"gengar-vmax-sa-020-019","providerCardId":"e5837df9-c9d4-5ddb-ad31-07eb6b7086b2","name":"Gengar VMAX","set":"High Class Deck Gengar VMAX","number":"020/019","aliases":["Gengar VMAX SA"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"},
+    {"baseCardId":"giratina-v-sa-111-100","providerCardId":"b54c9d3a-94e1-5763-a5af-dda0417780b9","name":"Giratina V","set":"Lost Abyss","number":"111/100","aliases":["Giratina V SA"],"game":"pokemon-japan","marketRegion":"US","language":"Japanese"}
+  ]
+}

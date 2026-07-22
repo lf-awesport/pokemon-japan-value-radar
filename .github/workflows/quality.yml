@@ -1,0 +1,25 @@
+name: Validate radar data
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate JSON datasets
+        run: python scripts/validate_data.py
+      - name: Compile updater
+        run: python -m py_compile scripts/update_justtcg_raw.py scripts/validate_data.py
