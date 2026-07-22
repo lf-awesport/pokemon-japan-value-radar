@@ -1,0 +1,44 @@
+name: Refresh JustTCG raw prices
+
+on:
+  schedule:
+    - cron: "17 5,13,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-justtcg-raw
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      JUSTTCG_API_KEY: ${{ secrets.JUSTTCG_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check secret
+        run: test -n "$JUSTTCG_API_KEY"
+      - name: Refresh raw market prices
+        run: python scripts/update_justtcg_raw.py
+      - name: Validate datasets
+        run: python scripts/validate_data.py
+      - name: Commit updated snapshot
+        run: |
+          if git diff --quiet -- data/justtcg-raw.json; then
+            echo "No raw price changes"
+            exit 0
+          fi
+          git config user.name "pokemon-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/justtcg-raw.json
+          git commit -m "refresh JustTCG raw prices"
+          git push
