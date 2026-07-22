@@ -2,38 +2,25 @@ name: Check JustTCG coverage
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - agent/justtcg-integration
-    paths:
-      - data/coverage-cards.json
-      - scripts/check_justtcg_coverage.py
-      - .github/workflows/check-justtcg-coverage.yml
-  pull_request:
-    branches: [main]
-    paths:
-      - data/coverage-cards.json
-      - scripts/check_justtcg_coverage.py
-      - .github/workflows/check-justtcg-coverage.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: justtcg-coverage-${{ github.ref }}
+  group: justtcg-coverage
   cancel-in-progress: true
 
 jobs:
   coverage:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
       JUSTTCG_API_KEY: ${{ secrets.JUSTTCG_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref || github.ref_name }}
+          ref: agent/justtcg-integration
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -56,7 +43,6 @@ jobs:
           if-no-files-found: error
 
       - name: Commit report to integration branch
-        if: github.event_name != 'pull_request'
         run: |
           if git diff --quiet -- data/coverage-report.json data/coverage-report.md; then
             echo "Coverage report unchanged"
