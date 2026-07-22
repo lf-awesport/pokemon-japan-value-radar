@@ -1,0 +1,69 @@
+name: Check JustTCG coverage
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/justtcg-integration
+    paths:
+      - data/coverage-cards.json
+      - scripts/check_justtcg_coverage.py
+      - .github/workflows/check-justtcg-coverage.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - data/coverage-cards.json
+      - scripts/check_justtcg_coverage.py
+      - .github/workflows/check-justtcg-coverage.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: justtcg-coverage-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      JUSTTCG_API_KEY: ${{ secrets.JUSTTCG_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check secret
+        run: test -n "$JUSTTCG_API_KEY"
+
+      - name: Run coverage probe
+        run: python scripts/check_justtcg_coverage.py
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: justtcg-coverage-report
+          path: |
+            data/coverage-report.json
+            data/coverage-report.md
+          if-no-files-found: error
+
+      - name: Commit report to integration branch
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet -- data/coverage-report.json data/coverage-report.md; then
+            echo "Coverage report unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/coverage-report.json data/coverage-report.md
+          git commit -m "chore: update JustTCG coverage report"
+          git push
