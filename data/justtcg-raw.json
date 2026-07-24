@@ -5,7 +5,7 @@
     "marketRegion": "US",
     "language": "Japanese",
     "currency": "USD",
-    "generatedAt": "2026-07-24T06:10:42.437292+00:00",
+    "generatedAt": "2026-07-24T13:55:07.737742+00:00",
     "successfulRecords": 10,
     "totalRecords": 10,
     "errors": [],
@@ -22,8 +22,8 @@
       "marketRegion": "US",
       "currency": "USD",
       "priceUsd": 393.02,
-      "providerUpdatedAt": "2026-07-24T00:25:49+00:00",
-      "fetchedAt": "2026-07-24T06:09:46.480729+00:00",
+      "providerUpdatedAt": "2026-07-24T12:33:16+00:00",
+      "fetchedAt": "2026-07-24T13:54:12.076689+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -37,7 +37,7 @@
       "currency": "USD",
       "priceUsd": 800.0,
       "providerUpdatedAt": "2026-02-11T21:54:30+00:00",
-      "fetchedAt": "2026-07-24T06:09:53.707385+00:00",
+      "fetchedAt": "2026-07-24T13:54:18.772732+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -51,7 +51,7 @@
       "currency": "USD",
       "priceUsd": 549.99,
       "providerUpdatedAt": "2026-01-01T01:42:31+00:00",
-      "fetchedAt": "2026-07-24T06:10:35.393255+00:00",
+      "fetchedAt": "2026-07-24T13:55:01.363727+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -65,7 +65,7 @@
       "currency": "USD",
       "priceUsd": 675.0,
       "providerUpdatedAt": "2026-07-20T05:50:03+00:00",
-      "fetchedAt": "2026-07-24T06:10:42.437284+00:00",
+      "fetchedAt": "2026-07-24T13:55:07.737730+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -78,8 +78,8 @@
       "marketRegion": "US",
       "currency": "USD",
       "priceUsd": 276.61,
-      "providerUpdatedAt": "2026-07-24T00:29:14+00:00",
-      "fetchedAt": "2026-07-24T06:10:07.438450+00:00",
+      "providerUpdatedAt": "2026-07-24T12:36:36+00:00",
+      "fetchedAt": "2026-07-24T13:54:32.795974+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -92,8 +92,8 @@
       "marketRegion": "US",
       "currency": "USD",
       "priceUsd": 474.99,
-      "providerUpdatedAt": "2026-07-24T00:28:15+00:00",
-      "fetchedAt": "2026-07-24T06:10:00.462929+00:00",
+      "providerUpdatedAt": "2026-07-24T12:35:40+00:00",
+      "fetchedAt": "2026-07-24T13:54:26.056278+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -106,8 +106,8 @@
       "marketRegion": "US",
       "currency": "USD",
       "priceUsd": 178.63,
-      "providerUpdatedAt": "2026-07-24T00:25:44+00:00",
-      "fetchedAt": "2026-07-24T06:09:39.554104+00:00",
+      "providerUpdatedAt": "2026-07-24T12:33:11+00:00",
+      "fetchedAt": "2026-07-24T13:54:05.061959+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -120,8 +120,8 @@
       "marketRegion": "US",
       "currency": "USD",
       "priceUsd": 218.42,
-      "providerUpdatedAt": "2026-07-24T00:25:49+00:00",
-      "fetchedAt": "2026-07-24T06:10:14.574742+00:00",
+      "providerUpdatedAt": "2026-07-24T12:33:16+00:00",
+      "fetchedAt": "2026-07-24T13:54:40.202666+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -134,8 +134,8 @@
       "marketRegion": "US",
       "currency": "USD",
       "priceUsd": 34.27,
-      "providerUpdatedAt": "2026-07-24T00:25:49+00:00",
-      "fetchedAt": "2026-07-24T06:10:21.491601+00:00",
+      "providerUpdatedAt": "2026-07-24T12:33:16+00:00",
+      "fetchedAt": "2026-07-24T13:54:47.147573+00:00",
       "source": "JustTCG v2"
     },
     {
@@ -149,7 +149,7 @@
       "currency": "USD",
       "priceUsd": 699.0,
       "providerUpdatedAt": "2026-02-24T23:41:50+00:00",
-      "fetchedAt": "2026-07-24T06:10:28.474364+00:00",
+      "fetchedAt": "2026-07-24T13:54:54.099149+00:00",
       "source": "JustTCG v2"
     }
   ]
